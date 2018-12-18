@@ -1,0 +1,8 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("stats", "lm", "dnorm", "resid", "glm", "coefficients", "sigma", "quantile", "smooth.spline", "predict")
+importFrom("stringi", "stri_rand_strings")
+importFrom("ggplot2", "ggplot", "geom_point", "geom_segment", "geom_line", "aes", "aes_string", "xlab", "ylab", "xlim", "ylim")
+importFrom("ggrepel", "geom_text_repel")
+importFrom("splitstackshape", "expandRows")
+importFrom("relaimpo", "calc.relimp")
+importFrom('plotly', 'ggplotly')
